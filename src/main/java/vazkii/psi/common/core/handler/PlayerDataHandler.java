@@ -651,7 +651,7 @@ public class PlayerDataHandler {
 
 		@Override
 		public int getRegenCooldown() {
-			return regenCooldown;
+			return 0;
 		}
 
 		@Override
