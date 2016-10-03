@@ -336,7 +336,7 @@ public class PlayerDataHandler {
 					save();
 				}
 			} else {
-				regenCooldown--;
+				regenCooldown = 0;
 				save();
 			}
 
