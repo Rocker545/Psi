@@ -457,9 +457,10 @@ public class ItemCAD extends ItemMod implements ICAD, ISpellSettable, IItemColor
 		return ConfigHandler.cadHarvestLevel;
 	}
 
-	@Override
-    public int getHarvestLevel(ItemStack stack, String toolClass, @Nullable EntityPlayer player, @Nullable IBlockState blockState) {
-    	return ConfigHandler.cadHarvestLevel;
+	
+    	public int getHarvestLevel(ItemStack stack, String toolClass, @Nullable EntityPlayer player, @Nullable IBlockState blockState) 
+	{
+    		return ConfigHandler.cadHarvestLevel;
     }
 	
 	@Override
