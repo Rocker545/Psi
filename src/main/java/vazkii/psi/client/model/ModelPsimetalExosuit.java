@@ -42,7 +42,7 @@ public class ModelPsimetalExosuit extends ModelModArmor {
 
 		textureWidth = 64;
 		textureHeight = 128;
-		float s = 0.2F;
+		float s = 0.255F;
 
 		sensorcolor = new ModelRenderer(this, 38, 40);
 		sensorcolor.mirror = true;
@@ -67,7 +67,7 @@ public class ModelPsimetalExosuit extends ModelModArmor {
 		armR.setRotationPoint(-5.0F, 2.0F, 0.0F);
 		armR.addBox(-3.0F, 6.5F, -2.0F, 3, 4, 4, s);
 		legR = new ModelRenderer(this, 16, 73);
-		legR.setRotationPoint(-2.0F, 12.0F, 0.0F);
+		legR.setRotationPoint(-1.9F, 12.0F, 0.0F);
 		legR.addBox(-2.0F, 0.0F, -2.0F, 4, 7, 4, s);
 		sensor = new ModelRenderer(this, 38, 32);
 		sensor.mirror = true;
@@ -75,12 +75,12 @@ public class ModelPsimetalExosuit extends ModelModArmor {
 		sensor.addBox(4.0F, -7.0F, -2.0F, 1, 3, 5, s);
 		armRpauldron = new ModelRenderer(this, 0, 73);
 		armRpauldron.setRotationPoint(0.0F, 0.0F, 0.0F);
-		armRpauldron.addBox(-3.5F, -1.5F, -2.0F, 3, 7, 4, s);
+		armRpauldron.addBox(-3.5F, -2.0F, -2.0F, 3, 7, 4, s);
 		setRotateAngle(armRpauldron, 0.0F, 0.0F, 0.17453292519943295F);
 		armLpauldron = new ModelRenderer(this, 0, 73);
 		armLpauldron.mirror = true;
 		armLpauldron.setRotationPoint(0.0F, 0.0F, 0.0F);
-		armLpauldron.addBox(0.5F, -1.5F, -2.0F, 3, 7, 4, s);
+		armLpauldron.addBox(0.5F, -2.0F, -2.0F, 3, 7, 4, s);
 		setRotateAngle(armLpauldron, 0.0F, 0.0F, -0.17453292519943295F);
 		helm_1 = new ModelRenderer(this, 0, 32);
 		helm_1.setRotationPoint(0.0F, 0.0F, 0.0F);
@@ -99,7 +99,7 @@ public class ModelPsimetalExosuit extends ModelModArmor {
 		bootR.addBox(-2.0F, 8.0F, -3.0F, 4, 4, 5, s);
 		legL = new ModelRenderer(this, 16, 73);
 		legL.mirror = true;
-		legL.setRotationPoint(2.0F, 12.0F, 0.0F);
+		legL.setRotationPoint(1.9F, 12.0F, 0.0F);
 		legL.addBox(-2.0F, 0.0F, -2.0F, 4, 7, 4, s);
 		bootL = new ModelRenderer(this, 16, 85);
 		bootL.mirror = true;
